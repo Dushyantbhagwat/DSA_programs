@@ -9,7 +9,7 @@
 #define size 5
 
 int stack[size];
-int j = -1;
+int j = -1;  //j=top
 
 void push(int);
 void pop();
