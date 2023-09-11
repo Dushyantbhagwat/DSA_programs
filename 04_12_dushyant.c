@@ -124,33 +124,17 @@ void isEmpty()
 /* show() : displays queue with front and rear pointers */
 void show()
 {
-	int i;
-	if(f == -1 && r == -1)
-	{
-		printf("\nQueue is Empty!");
-	} 
-	else
-	{
-		printf("\n------------");
-		for(i = f; i <= r; i++)
-		{
-			if(i == f && i == r)
-			{
-				printf("\n%d <- front and rear", queue[i]);
-			}
-			else if(i == f)
-			{
-				printf("\n%d <- front", queue[i]);
-			}
-			else if(i == r)
-			{
-				printf("\n%d <- rear", queue[i]);
-			}
-			else
-			{
-				printf("\n%d", queue[i]);
-			}
-		}
-		printf("\n------------");
-	}
+  if (front == -1 && rear == -1)
+  {
+    printf("queue is empty");
+  }
+
+  else
+  {
+    for (int i = front; i <= rear; i++)
+    {
+      printf("element is %d", queue[i]);
+    }
+  }
 }
+/*end of display method*/
