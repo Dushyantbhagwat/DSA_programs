@@ -1,7 +1,7 @@
 /*Infix To Postfix Expression*/
 
 /*Roll no: 04
-  Batch: C
+  Batch: A
   Name: Dushyant Bhagwat
   Date:11/09/2023
   Description: progarmm id 19
